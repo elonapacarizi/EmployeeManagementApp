@@ -159,3 +159,16 @@ https://localhost:7123/api/Employee/delete/123e4567-e89b-12d3-a456-426614174000
 200 OK
 No content
 ```
+
+
+
+## Authentication – How to Get JWT Token
+
+All endpoints are protected with JWT.  
+To test the API you have to log in with these credentials:
+
+```json
+{
+  "username": "Admin",
+  "password": "admin"
+}
